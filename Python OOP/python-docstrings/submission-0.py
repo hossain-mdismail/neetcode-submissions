@@ -1,17 +1,19 @@
 class SuperHero:
-    # TODO: Add a docstring describing the SuperHero class:
+    #  Add a docstring describing the SuperHero class:
     # "A class to represent a superhero character."
+    '''Characters as superhero of our project, 
+    also a class to represent superhero character'''
     
     def __init__(self, name: str, power: str, strength: int) -> None:
-        # TODO: Add a docstring describing this constructor:
-        # "Initialize a superhero with name, power, and strength attributes."
+        # Add a docstring describing this constructor:
+        '''Initialize a superhero with name, power, and strength attributes.'''
         self.name = name
         self.power = power
         self.strength = strength
 
     def describe(self) -> str:
-        # TODO: Add a docstring describing this method:
-        # "Return a string describing the hero's power and strength."
+        # Add a docstring describing this method:
+        """Return a string describing the hero's power and strength."""
         return f"{self.name} wields {self.power} with {self.strength} strength!"
 
 
